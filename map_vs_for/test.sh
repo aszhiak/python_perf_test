@@ -8,7 +8,8 @@
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 FORMAT="time elapsed: %e \ncpu_time: %U\n"
 
-echo "Executing map vs for loop performance test."
+echo "Executing Python map vs for loop performance test."
+echo -e "\nPython version:\n$(python --version)"
 
 # Map execution
 echo -e "\n\nExecuting map loop performance test."
